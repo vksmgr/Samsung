@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/C program/Samsung/src/main.c
+stdio.h
+-
+samsung/samsung.h
+F:/C program/Samsung/src/samsung/samsung.h
+
+F:/C program/Samsung/src/samsung/samsung.c
+stdio.h
+-
+stdlib.h
+-
+samsung.h
+F:/C program/Samsung/src/samsung/samsung.h
+
+F:/C program/Samsung/src/samsung/samsung.h
+
